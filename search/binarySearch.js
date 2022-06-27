@@ -1,4 +1,4 @@
-// Problem: Given a sorted array of 'n' elements and a target element 't', find the index pf 't' in the array. Return -1 if the target element is not found.
+// Problem: Given a sorted array of 'n' elements and a target element 't', find the index of 't' in the array. Return -1 if the target element is not found.
 
 function binarySearch(arr, target){
     let leftIndex = 0;
@@ -22,3 +22,6 @@ function binarySearch(arr, target){
   console.log(binarySearch([-5, 2, 4, 7, 10], 10))
   console.log(binarySearch([-5, 2, 4, 7, 10], 4))
   console.log(binarySearch([-5, 2, 4, 7, 10], 2))
+
+
+//   Big-O is log(o )
