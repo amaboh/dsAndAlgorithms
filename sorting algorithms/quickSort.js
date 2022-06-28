@@ -12,7 +12,7 @@ function quickSort(arr){
     if (arr.length < 2){
         return arr
     }
-    
+
     let pivot = arr[arr.length-1];
     let left = [];
     let right = [];
@@ -27,3 +27,6 @@ function quickSort(arr){
 
     return [...quickSort(left), pivot, ...quickSort(right)];
 }
+
+// Worst case - O(n ^ 2)
+// Average - O(n logn)
